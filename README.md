@@ -1,0 +1,1 @@
+My attempt at following the Bare Bones tutorial at https://wiki.osdev.org/Bare_Bones.
