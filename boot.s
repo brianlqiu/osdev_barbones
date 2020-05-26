@@ -38,7 +38,7 @@ Stack on x86 must be 16-byte aligned according to System V ABI standard.
 Compiler assumes stack is properly aligned and failure to align will result
 in undefined behavior.
 
-.bss denots uninitialized read-write data
+.bss denotes uninitialized read-write data
 */
 .section .bss 
 .align 16 # aligns the 16-bytes 
