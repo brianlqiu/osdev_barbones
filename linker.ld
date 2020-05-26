@@ -13,7 +13,7 @@ kernel image
 SECTIONS
 {
     /* Begin putting sections at 1 MiB, conventional place for kernels to be loaded */
-    . = 1M
+    . = 1M;
 
     /* 
     Put multiboot header first, so bootloader can recognize file format 
